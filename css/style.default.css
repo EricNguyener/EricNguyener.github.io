@@ -64,8 +64,14 @@ section {
 }
 
 /* Portfolio */
-.whiteText {
-  color: #ffffff;
+.whiteText,
+.whiteText:hover
+.whiteText:focus{
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .img-responsive {
@@ -233,9 +239,14 @@ NAVBAR
 #linkedIn {
   color: #999999;
 }
-#linkedIn:hover{
-  color: #000;
+#linkedIn:hover,
+#linkedIn:focus{
+  color: #000000;
   text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 .nav > li.disabled > a {
   color: #999999;
