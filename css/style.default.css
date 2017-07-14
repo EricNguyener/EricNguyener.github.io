@@ -230,6 +230,13 @@ NAVBAR
 .nav > li > a:focus {
   background-color: #eeeeee;
 }
+#linkedIn {
+  color: #999999;
+}
+#linkedIn:hover{
+  color: #000;
+  text-decoration: none;
+}
 .nav > li.disabled > a {
   color: #999999;
 }
@@ -989,7 +996,8 @@ a.list-group-item.active > .badge,
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
-
+/*
 .rowCopyright {
   padding: 20px;
 }
+*/
