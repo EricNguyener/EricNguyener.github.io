@@ -48,12 +48,32 @@ section {
   }
 }
 
+/* About */
 @media (max-width: 768px) {
   .aboutText p,
   .aboutText h1 {
     text-align: center;
   }
 }
+
+.aboutText p {
+  font-size: 18px;
+  color: #666;
+}
+
+.aboutText p:hover {
+  color: #fff;
+}
+
+#techLink {
+  color: #666;
+  text-decoration: none;
+}
+
+#techLink:hover {
+  color: #fff;
+}
+/* End of About */
 
 .overlay {
   position: absolute;
@@ -658,25 +678,6 @@ hr {
   margin-bottom: 22px;
   border: 0;
   border-top: 1px solid #eeeeee;
-}
-
-/* About */
-.aboutText p {
-  font-size: 18px;
-  color: #666;
-}
-
-.aboutText p:hover {
-  color: #fff;
-}
-
-#techLink {
-  color: #666;
-  text-decoration: none;
-}
-
-#techLink:hover {
-  color: #fff;
 }
 
 /* Breadcrumbs */
