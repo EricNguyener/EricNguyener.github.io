@@ -63,6 +63,10 @@ section {
 
 .aboutText p:hover {
   color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 #techLink {
@@ -72,6 +76,10 @@ section {
 
 #techLink:hover {
   color: #fff;
+  text-decoration: underline;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 /* End of About */
 
@@ -281,7 +289,7 @@ NAVBAR
   background-color: #eeeeee;
 }
 #linkedIn {
-  color: #999999;
+  color: #999;
 }
 #linkedIn:hover,
 #linkedIn:focus{
