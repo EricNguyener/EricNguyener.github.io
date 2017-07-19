@@ -48,6 +48,16 @@ section {
   }
 }
 
+.aboutText p {
+  font-size: 18px;
+  color: #666;
+}
+
+.aboutText p:hover {
+  color: #fff;
+}
+
+/* About */
 @media (max-width: 768px) {
   .aboutText p,
   .aboutText h1 {
@@ -658,15 +668,6 @@ hr {
   margin-bottom: 22px;
   border: 0;
   border-top: 1px solid #eeeeee;
-}
-
-.aboutText p {
-  font-size: 18px;
-  color: #666;
-}
-
-.aboutText p:hover {
-  color: #fff;
 }
 
 /* Breadcrumbs */
